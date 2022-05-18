@@ -1,0 +1,4 @@
+run = ""
+
+[env]
+PGDATA = "/home/runner/${REPL_SLUG}/data"
