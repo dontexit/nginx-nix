@@ -1,3 +1,3 @@
 # nginx-nix
 
-Basic Skeleton for a NGINX on repl.it / nix
+Basic template for a NGINX app on repl.it / nix
