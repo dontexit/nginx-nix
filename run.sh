@@ -1,5 +1,5 @@
 # start nginx
-mv -f replit.nix.bak replit.nix | echo "nix already configure"
+mv -f replit.nix.bak replit.nix | echo "nix already configured"
 
 echo "STARING NGINX SERVER"
 
