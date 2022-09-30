@@ -2,11 +2,11 @@
 let
     nginxModified = pkgs.nginx.overrideAttrs (oldAttrs: rec {
         configureFlags = oldAttrs.configureFlags ++ [
-            "--http-client-body-temp-path=/home/runner/ramrobazar/cache/client_body"
-            "--http-proxy-temp-path=/home/runner/ramrobazar/cache/proxy"
-            "--http-fastcgi-temp-path=/home/runner/ramrobazar/cache/fastcgi"
-            "--http-uwsgi-temp-path=/home/runner/ramrobazar/cache/uwsgi"
-            "--http-scgi-temp-path=/home/runner/ramrobazar/cache/scgi"
+            "--http-client-body-temp-path=$BASE_DIR/cache/client_body"
+            "--http-proxy-temp-path=$BASE_DIR/cache/proxy"
+            "--http-fastcgi-temp-path=$BASE_DIR/cache/fastcgi"
+            "--http-uwsgi-temp-path=$BASE_DIR/cache/uwsgi"
+            "--http-scgi-temp-path=$BASE_DIR/cache/scgi"
          ];
     });
 
