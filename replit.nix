@@ -12,13 +12,13 @@ let
 
 in {
     deps = [
-        nginxModified
-    pkgs.python310   
-    pkgs.python310Packages.django
-    pkgs.python310Packages.gunicorn
-    pkgs.python310Packages.pillow
-    pkgs.python310Packages.requests
-    pkgs.python310Packages.python-dotenv  
+        nginxModified 
+    pkgs.python39 
+    pkgs.python39Packages.django
+    pkgs.python39Packages.gunicorn 
+    pkgs.python39Packages.pillow
+    pkgs.python39Packages.requests
+    pkgs.python39Packages.python-dotenv
     pkgs.psmisc
     pkgs.systemdMinimal
     pkgs.lsof
